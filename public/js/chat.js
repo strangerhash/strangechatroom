@@ -141,15 +141,15 @@
     toastr.warning(data.warning.message, data.warning.title);
   });
 
-  endbtn.addEventListener('click', () => {
-    let confirm = document.querySelector('#confirm');
-    confirm.classList.add('visible');
-  });
+//   endbtn.addEventListener('click', () => {
+//     let confirm = document.querySelector('#confirm');
+//     confirm.classList.add('visible');
+//   });
 
-  cancel.addEventListener('click', () => {
-    let confirm = document.querySelector('#confirm');
-    confirm.classList.remove('visible');
-  });
+//   cancel.addEventListener('click', () => {
+//     let confirm = document.querySelector('#confirm');
+//     confirm.classList.remove('visible');
+//   });
 
   close.addEventListener('click', () => {
     let confirm = document.querySelector('#confirm');
